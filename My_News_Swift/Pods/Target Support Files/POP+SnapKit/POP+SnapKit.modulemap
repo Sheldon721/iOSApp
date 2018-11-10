@@ -1,0 +1,6 @@
+framework module POP_SnapKit {
+  umbrella header "POP+SnapKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

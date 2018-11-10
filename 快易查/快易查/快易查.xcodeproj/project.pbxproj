@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		635AE09317114B0284660304 /* libPods-快易查.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38027C22BD3296C4A76EB356 /* libPods-快易查.a */; };
+		D008FCFA1FC4FEE300319F33 /* registrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D008FCF91FC4FEE300319F33 /* registrationViewController.m */; };
+		D01A1BA21FC1A91F00458083 /* QueryCourierModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D01A1BA11FC1A91F00458083 /* QueryCourierModel.m */; };
+		D01A1BA51FC1AA6700458083 /* LogisticsDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01A1BA41FC1AA6700458083 /* LogisticsDetailsViewController.m */; };
+		D01A1BA81FC1ACDF00458083 /* LogisticsDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D01A1BA71FC1ACDF00458083 /* LogisticsDetailsCell.m */; };
+		D01A1BAB1FC1CE4100458083 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01A1BAA1FC1CE4100458083 /* LoginViewController.m */; };
+		D020DB421FC058CB00819B4D /* CourierPhoneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D020DB411FC058CB00819B4D /* CourierPhoneCell.m */; };
+		D020DB451FC064C700819B4D /* CourierPhoneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D020DB441FC064C700819B4D /* CourierPhoneModel.m */; };
+		D04A47131FC56862004CE16E /* feedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D04A47121FC56862004CE16E /* feedbackViewController.m */; };
+		D05BDBC61FBEA8710018551B /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05BDBC51FBEA8710018551B /* MainTabBarController.m */; };
+		D05BDBC91FBEA8950018551B /* PersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05BDBC81FBEA8950018551B /* PersonalCenterViewController.m */; };
+		D05BDBCC1FBEA8B80018551B /* CourierPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05BDBCB1FBEA8B80018551B /* CourierPhoneViewController.m */; };
+		D05BDBCF1FBEA8D30018551B /* QueryCourierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05BDBCE1FBEA8D30018551B /* QueryCourierViewController.m */; };
+		D05BDBD21FBEA8F20018551B /* SendSpecialDeliveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05BDBD11FBEA8F20018551B /* SendSpecialDeliveryViewController.m */; };
+		D05BDBD51FBEBC3D0018551B /* TableViewDelagate.m in Sources */ = {isa = PBXBuildFile; fileRef = D05BDBD41FBEBC3D0018551B /* TableViewDelagate.m */; };
+		D05BDBD81FBEC0DC0018551B /* SendSpecialDeliveryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D05BDBD71FBEC0DC0018551B /* SendSpecialDeliveryCell.m */; };
+		D05BDBDB1FBED88B0018551B /* QueryCourierCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D05BDBDA1FBED88B0018551B /* QueryCourierCell.m */; };
+		D05BDBDE1FBF1EDD0018551B /* PersonalCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D05BDBDD1FBF1EDD0018551B /* PersonalCenterCell.m */; };
+		D05BDBE11FBF39650018551B /* AFNTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D05BDBE01FBF39650018551B /* AFNTool.m */; };
+		D0C895AA1FBE7DAA00A5F847 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C895A91FBE7DAA00A5F847 /* AppDelegate.m */; };
+		D0C895B01FBE7DAA00A5F847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C895AE1FBE7DAA00A5F847 /* Main.storyboard */; };
+		D0C895B21FBE7DAA00A5F847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C895B11FBE7DAA00A5F847 /* Assets.xcassets */; };
+		D0C895B51FBE7DAA00A5F847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C895B31FBE7DAA00A5F847 /* LaunchScreen.storyboard */; };
+		D0C895B81FBE7DAA00A5F847 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C895B71FBE7DAA00A5F847 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38027C22BD3296C4A76EB356 /* libPods-快易查.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-快易查.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7400540A96392B3B4EFA0A65 /* Pods-快易查.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-快易查.debug.xcconfig"; path = "Pods/Target Support Files/Pods-快易查/Pods-快易查.debug.xcconfig"; sourceTree = "<group>"; };
+		D008FCF81FC4FEE300319F33 /* registrationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = registrationViewController.h; sourceTree = "<group>"; };
+		D008FCF91FC4FEE300319F33 /* registrationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = registrationViewController.m; sourceTree = "<group>"; };
+		D01A1BA01FC1A91F00458083 /* QueryCourierModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueryCourierModel.h; sourceTree = "<group>"; };
+		D01A1BA11FC1A91F00458083 /* QueryCourierModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueryCourierModel.m; sourceTree = "<group>"; };
+		D01A1BA31FC1AA6700458083 /* LogisticsDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogisticsDetailsViewController.h; sourceTree = "<group>"; };
+		D01A1BA41FC1AA6700458083 /* LogisticsDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogisticsDetailsViewController.m; sourceTree = "<group>"; };
+		D01A1BA61FC1ACDF00458083 /* LogisticsDetailsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogisticsDetailsCell.h; sourceTree = "<group>"; };
+		D01A1BA71FC1ACDF00458083 /* LogisticsDetailsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogisticsDetailsCell.m; sourceTree = "<group>"; };
+		D01A1BA91FC1CE4100458083 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D01A1BAA1FC1CE4100458083 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D020DB401FC058CB00819B4D /* CourierPhoneCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourierPhoneCell.h; sourceTree = "<group>"; };
+		D020DB411FC058CB00819B4D /* CourierPhoneCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourierPhoneCell.m; sourceTree = "<group>"; };
+		D020DB431FC064C700819B4D /* CourierPhoneModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourierPhoneModel.h; sourceTree = "<group>"; };
+		D020DB441FC064C700819B4D /* CourierPhoneModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourierPhoneModel.m; sourceTree = "<group>"; };
+		D04A47111FC56862004CE16E /* feedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = feedbackViewController.h; sourceTree = "<group>"; };
+		D04A47121FC56862004CE16E /* feedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = feedbackViewController.m; sourceTree = "<group>"; };
+		D05BDBC21FBEA6790018551B /* KuaiYiCha.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KuaiYiCha.pch; sourceTree = "<group>"; };
+		D05BDBC41FBEA8710018551B /* MainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		D05BDBC51FBEA8710018551B /* MainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		D05BDBC71FBEA8950018551B /* PersonalCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalCenterViewController.h; sourceTree = "<group>"; };
+		D05BDBC81FBEA8950018551B /* PersonalCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterViewController.m; sourceTree = "<group>"; };
+		D05BDBCA1FBEA8B80018551B /* CourierPhoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourierPhoneViewController.h; sourceTree = "<group>"; };
+		D05BDBCB1FBEA8B80018551B /* CourierPhoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourierPhoneViewController.m; sourceTree = "<group>"; };
+		D05BDBCD1FBEA8D30018551B /* QueryCourierViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueryCourierViewController.h; sourceTree = "<group>"; };
+		D05BDBCE1FBEA8D30018551B /* QueryCourierViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueryCourierViewController.m; sourceTree = "<group>"; };
+		D05BDBD01FBEA8F20018551B /* SendSpecialDeliveryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendSpecialDeliveryViewController.h; sourceTree = "<group>"; };
+		D05BDBD11FBEA8F20018551B /* SendSpecialDeliveryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendSpecialDeliveryViewController.m; sourceTree = "<group>"; };
+		D05BDBD31FBEBC3D0018551B /* TableViewDelagate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewDelagate.h; sourceTree = "<group>"; };
+		D05BDBD41FBEBC3D0018551B /* TableViewDelagate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewDelagate.m; sourceTree = "<group>"; };
+		D05BDBD61FBEC0DC0018551B /* SendSpecialDeliveryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendSpecialDeliveryCell.h; sourceTree = "<group>"; };
+		D05BDBD71FBEC0DC0018551B /* SendSpecialDeliveryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendSpecialDeliveryCell.m; sourceTree = "<group>"; };
+		D05BDBD91FBED88B0018551B /* QueryCourierCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueryCourierCell.h; sourceTree = "<group>"; };
+		D05BDBDA1FBED88B0018551B /* QueryCourierCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueryCourierCell.m; sourceTree = "<group>"; };
+		D05BDBDC1FBF1EDD0018551B /* PersonalCenterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalCenterCell.h; sourceTree = "<group>"; };
+		D05BDBDD1FBF1EDD0018551B /* PersonalCenterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterCell.m; sourceTree = "<group>"; };
+		D05BDBDF1FBF39650018551B /* AFNTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNTool.h; sourceTree = "<group>"; };
+		D05BDBE01FBF39650018551B /* AFNTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNTool.m; sourceTree = "<group>"; };
+		D0C895A51FBE7DAA00A5F847 /* 快易查.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "快易查.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C895A81FBE7DAA00A5F847 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0C895A91FBE7DAA00A5F847 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0C895AF1FBE7DAA00A5F847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0C895B11FBE7DAA00A5F847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0C895B41FBE7DAA00A5F847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0C895B61FBE7DAA00A5F847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0C895B71FBE7DAA00A5F847 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDFD04C580D2DFF4B1B96033 /* Pods-快易查.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-快易查.release.xcconfig"; path = "Pods/Target Support Files/Pods-快易查/Pods-快易查.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0C895A21FBE7DAA00A5F847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635AE09317114B0284660304 /* libPods-快易查.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35013C96A10362EB63F596AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7400540A96392B3B4EFA0A65 /* Pods-快易查.debug.xcconfig */,
+				FDFD04C580D2DFF4B1B96033 /* Pods-快易查.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D05BDBB21FBEA6270018551B /* PersonalCenter(个人中心) */ = {
+			isa = PBXGroup;
+			children = (
+				D05BDBB31FBEA6270018551B /* Controller */,
+				D05BDBB41FBEA6270018551B /* Model */,
+				D05BDBB51FBEA6270018551B /* View */,
+			);
+			path = "PersonalCenter(个人中心)";
+			sourceTree = "<group>";
+		};
+		D05BDBB31FBEA6270018551B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D05BDBC71FBEA8950018551B /* PersonalCenterViewController.h */,
+				D05BDBC81FBEA8950018551B /* PersonalCenterViewController.m */,
+				D01A1BA91FC1CE4100458083 /* LoginViewController.h */,
+				D01A1BAA1FC1CE4100458083 /* LoginViewController.m */,
+				D008FCF81FC4FEE300319F33 /* registrationViewController.h */,
+				D008FCF91FC4FEE300319F33 /* registrationViewController.m */,
+				D04A47111FC56862004CE16E /* feedbackViewController.h */,
+				D04A47121FC56862004CE16E /* feedbackViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D05BDBB41FBEA6270018551B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D05BDBB51FBEA6270018551B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D05BDBDC1FBF1EDD0018551B /* PersonalCenterCell.h */,
+				D05BDBDD1FBF1EDD0018551B /* PersonalCenterCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D05BDBB61FBEA6270018551B /* QueryCourier(查询快递) */ = {
+			isa = PBXGroup;
+			children = (
+				D05BDBB71FBEA6270018551B /* Controller */,
+				D05BDBB81FBEA6270018551B /* Model */,
+				D05BDBB91FBEA6270018551B /* View */,
+			);
+			path = "QueryCourier(查询快递)";
+			sourceTree = "<group>";
+		};
+		D05BDBB71FBEA6270018551B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D05BDBCD1FBEA8D30018551B /* QueryCourierViewController.h */,
+				D05BDBCE1FBEA8D30018551B /* QueryCourierViewController.m */,
+				D01A1BA31FC1AA6700458083 /* LogisticsDetailsViewController.h */,
+				D01A1BA41FC1AA6700458083 /* LogisticsDetailsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D05BDBB81FBEA6270018551B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D01A1BA01FC1A91F00458083 /* QueryCourierModel.h */,
+				D01A1BA11FC1A91F00458083 /* QueryCourierModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D05BDBB91FBEA6270018551B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D05BDBD91FBED88B0018551B /* QueryCourierCell.h */,
+				D05BDBDA1FBED88B0018551B /* QueryCourierCell.m */,
+				D01A1BA61FC1ACDF00458083 /* LogisticsDetailsCell.h */,
+				D01A1BA71FC1ACDF00458083 /* LogisticsDetailsCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D05BDBBA1FBEA6270018551B /* CourierPhone(快递电话) */ = {
+			isa = PBXGroup;
+			children = (
+				D05BDBBB1FBEA6270018551B /* Controller */,
+				D05BDBBC1FBEA6270018551B /* Model */,
+				D05BDBBD1FBEA6270018551B /* View */,
+			);
+			path = "CourierPhone(快递电话)";
+			sourceTree = "<group>";
+		};
+		D05BDBBB1FBEA6270018551B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D05BDBCA1FBEA8B80018551B /* CourierPhoneViewController.h */,
+				D05BDBCB1FBEA8B80018551B /* CourierPhoneViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D05BDBBC1FBEA6270018551B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D020DB431FC064C700819B4D /* CourierPhoneModel.h */,
+				D020DB441FC064C700819B4D /* CourierPhoneModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D05BDBBD1FBEA6270018551B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D020DB401FC058CB00819B4D /* CourierPhoneCell.h */,
+				D020DB411FC058CB00819B4D /* CourierPhoneCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D05BDBBE1FBEA6270018551B /* SendSpecialDelivery(寄快递) */ = {
+			isa = PBXGroup;
+			children = (
+				D05BDBBF1FBEA6270018551B /* Controller */,
+				D05BDBC01FBEA6270018551B /* Model */,
+				D05BDBC11FBEA6270018551B /* View */,
+			);
+			path = "SendSpecialDelivery(寄快递)";
+			sourceTree = "<group>";
+		};
+		D05BDBBF1FBEA6270018551B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D05BDBD01FBEA8F20018551B /* SendSpecialDeliveryViewController.h */,
+				D05BDBD11FBEA8F20018551B /* SendSpecialDeliveryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D05BDBC01FBEA6270018551B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D05BDBC11FBEA6270018551B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D05BDBD61FBEC0DC0018551B /* SendSpecialDeliveryCell.h */,
+				D05BDBD71FBEC0DC0018551B /* SendSpecialDeliveryCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D05BDBC31FBEA7CB0018551B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				D05BDBDF1FBF39650018551B /* AFNTool.h */,
+				D05BDBE01FBF39650018551B /* AFNTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		D0C8959C1FBE7DAA00A5F847 = {
+			isa = PBXGroup;
+			children = (
+				D0C895A71FBE7DAA00A5F847 /* 快易查 */,
+				D0C895A61FBE7DAA00A5F847 /* Products */,
+				35013C96A10362EB63F596AC /* Pods */,
+				D1CBEA2CC3ED1233A3D6460C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0C895A61FBE7DAA00A5F847 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0C895A51FBE7DAA00A5F847 /* 快易查.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0C895A71FBE7DAA00A5F847 /* 快易查 */ = {
+			isa = PBXGroup;
+			children = (
+				D05BDBC31FBEA7CB0018551B /* Tool */,
+				D05BDBBA1FBEA6270018551B /* CourierPhone(快递电话) */,
+				D05BDBB21FBEA6270018551B /* PersonalCenter(个人中心) */,
+				D05BDBB61FBEA6270018551B /* QueryCourier(查询快递) */,
+				D05BDBBE1FBEA6270018551B /* SendSpecialDelivery(寄快递) */,
+				D0C895A81FBE7DAA00A5F847 /* AppDelegate.h */,
+				D0C895A91FBE7DAA00A5F847 /* AppDelegate.m */,
+				D05BDBC41FBEA8710018551B /* MainTabBarController.h */,
+				D05BDBC51FBEA8710018551B /* MainTabBarController.m */,
+				D05BDBD31FBEBC3D0018551B /* TableViewDelagate.h */,
+				D05BDBD41FBEBC3D0018551B /* TableViewDelagate.m */,
+				D05BDBC21FBEA6790018551B /* KuaiYiCha.pch */,
+				D0C895AE1FBE7DAA00A5F847 /* Main.storyboard */,
+				D0C895B11FBE7DAA00A5F847 /* Assets.xcassets */,
+				D0C895B31FBE7DAA00A5F847 /* LaunchScreen.storyboard */,
+				D0C895B61FBE7DAA00A5F847 /* Info.plist */,
+				D0C895B71FBE7DAA00A5F847 /* main.m */,
+			);
+			path = "快易查";
+			sourceTree = "<group>";
+		};
+		D1CBEA2CC3ED1233A3D6460C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38027C22BD3296C4A76EB356 /* libPods-快易查.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0C895A41FBE7DAA00A5F847 /* 快易查 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C895BB1FBE7DAA00A5F847 /* Build configuration list for PBXNativeTarget "快易查" */;
+			buildPhases = (
+				8D12307F069EE3314B88681C /* [CP] Check Pods Manifest.lock */,
+				D0C895A11FBE7DAA00A5F847 /* Sources */,
+				D0C895A21FBE7DAA00A5F847 /* Frameworks */,
+				D0C895A31FBE7DAA00A5F847 /* Resources */,
+				75897D586F6D4A51C72A7B77 /* [CP] Embed Pods Frameworks */,
+				F05E5A41B70117E9D3E1EFD2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "快易查";
+			productName = "快易查";
+			productReference = D0C895A51FBE7DAA00A5F847 /* 快易查.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0C8959D1FBE7DAA00A5F847 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "刘超正";
+				TargetAttributes = {
+					D0C895A41FBE7DAA00A5F847 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D0C895A01FBE7DAA00A5F847 /* Build configuration list for PBXProject "快易查" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0C8959C1FBE7DAA00A5F847;
+			productRefGroup = D0C895A61FBE7DAA00A5F847 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0C895A41FBE7DAA00A5F847 /* 快易查 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0C895A31FBE7DAA00A5F847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C895B51FBE7DAA00A5F847 /* LaunchScreen.storyboard in Resources */,
+				D0C895B21FBE7DAA00A5F847 /* Assets.xcassets in Resources */,
+				D0C895B01FBE7DAA00A5F847 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75897D586F6D4A51C72A7B77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-快易查/Pods-快易查-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D12307F069EE3314B88681C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-快易查-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F05E5A41B70117E9D3E1EFD2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-快易查/Pods-快易查-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-快易查/Pods-快易查-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0C895A11FBE7DAA00A5F847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01A1BA21FC1A91F00458083 /* QueryCourierModel.m in Sources */,
+				D020DB421FC058CB00819B4D /* CourierPhoneCell.m in Sources */,
+				D01A1BA81FC1ACDF00458083 /* LogisticsDetailsCell.m in Sources */,
+				D01A1BA51FC1AA6700458083 /* LogisticsDetailsViewController.m in Sources */,
+				D05BDBD81FBEC0DC0018551B /* SendSpecialDeliveryCell.m in Sources */,
+				D05BDBDE1FBF1EDD0018551B /* PersonalCenterCell.m in Sources */,
+				D05BDBD51FBEBC3D0018551B /* TableViewDelagate.m in Sources */,
+				D0C895B81FBE7DAA00A5F847 /* main.m in Sources */,
+				D008FCFA1FC4FEE300319F33 /* registrationViewController.m in Sources */,
+				D05BDBCF1FBEA8D30018551B /* QueryCourierViewController.m in Sources */,
+				D05BDBC91FBEA8950018551B /* PersonalCenterViewController.m in Sources */,
+				D05BDBCC1FBEA8B80018551B /* CourierPhoneViewController.m in Sources */,
+				D05BDBE11FBF39650018551B /* AFNTool.m in Sources */,
+				D0C895AA1FBE7DAA00A5F847 /* AppDelegate.m in Sources */,
+				D020DB451FC064C700819B4D /* CourierPhoneModel.m in Sources */,
+				D04A47131FC56862004CE16E /* feedbackViewController.m in Sources */,
+				D01A1BAB1FC1CE4100458083 /* LoginViewController.m in Sources */,
+				D05BDBC61FBEA8710018551B /* MainTabBarController.m in Sources */,
+				D05BDBDB1FBED88B0018551B /* QueryCourierCell.m in Sources */,
+				D05BDBD21FBEA8F20018551B /* SendSpecialDeliveryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0C895AE1FBE7DAA00A5F847 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C895AF1FBE7DAA00A5F847 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0C895B31FBE7DAA00A5F847 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C895B41FBE7DAA00A5F847 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0C895B91FBE7DAA00A5F847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0C895BA1FBE7DAA00A5F847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0C895BC1FBE7DAA00A5F847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7400540A96392B3B4EFA0A65 /* Pods-快易查.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EB962NN4T;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/lixiaodong/Downloads/快易查/快易查/快易查/KuaiYiCha.pch";
+				INFOPLIST_FILE = "快易查/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0C895BD1FBE7DAA00A5F847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDFD04C580D2DFF4B1B96033 /* Pods-快易查.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EB962NN4T;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/lixiaodong/Downloads/快易查/快易查/快易查/KuaiYiCha.pch";
+				INFOPLIST_FILE = "快易查/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0C895A01FBE7DAA00A5F847 /* Build configuration list for PBXProject "快易查" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C895B91FBE7DAA00A5F847 /* Debug */,
+				D0C895BA1FBE7DAA00A5F847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C895BB1FBE7DAA00A5F847 /* Build configuration list for PBXNativeTarget "快易查" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C895BC1FBE7DAA00A5F847 /* Debug */,
+				D0C895BD1FBE7DAA00A5F847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0C8959D1FBE7DAA00A5F847 /* Project object */;
+}

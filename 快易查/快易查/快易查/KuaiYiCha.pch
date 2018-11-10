@@ -1,0 +1,32 @@
+//
+//  KuaiYiCha.pch
+//  快易查
+//
+//  Created by 刘超正 on 2017/11/17.
+//  Copyright © 2017年 刘超正. All rights reserved.
+//
+
+#ifndef KuaiYiCha_pch
+#define KuaiYiCha_pch
+
+#import <AFNetworking.h>
+#import <Masonry.h>
+#import <MJRefresh.h>
+#import <MJExtension.h>
+#import <MMDrawerController.h>
+#import <UIImageView+WebCache.h>
+#import <MBProgressHUD.h>
+#import <SDCycleScrollView.h>
+#import "TableViewDelagate.h"
+#import "AFNTool.h"
+#define kWidth self.view.frame.size.width
+#define kHeight self.view.frame.size.height
+#define appKey @"b998f8233cdcc63e"
+#define kTabBarHeight self.tabBarController.tabBar.frame.size.height
+#define kStatusHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+#define kNaviHeight self.navigationController.navigationBar.frame.size.height
+#define RGBColor(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* KuaiYiCha_pch */

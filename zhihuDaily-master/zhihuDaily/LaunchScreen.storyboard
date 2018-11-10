@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bl4-eI-OHN">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Haz-NV-vRW">
+            <objects>
+                <viewController id="bl4-eI-OHN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uCn-8d-Q3e"/>
+                        <viewControllerLayoutGuide type="bottom" id="7tK-30-bjW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Avd-6F-q4C">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_screen_logo" translatesAutoresizingMaskIntoConstraints="NO" id="5R6-xz-01N" userLabel="Logo">
+                                <rect key="frame" x="125" y="576" width="125" height="45"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5R6-xz-01N" firstAttribute="centerX" secondItem="Avd-6F-q4C" secondAttribute="centerX" id="jew-ga-vXk"/>
+                            <constraint firstItem="7tK-30-bjW" firstAttribute="top" secondItem="5R6-xz-01N" secondAttribute="bottom" constant="46" id="zf8-fG-m6K"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="04s-vd-b0L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="253" y="1"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launch_screen_logo" width="125" height="45"/>
+    </resources>
+</document>

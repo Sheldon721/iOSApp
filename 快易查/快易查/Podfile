@@ -1,0 +1,11 @@
+platform :ios, '8.0'
+target '快易查' do
+pod 'SDWebImage'
+pod 'AFNetworking'
+pod 'MJExtension'
+pod 'MJRefresh'
+pod 'MMDrawerController'
+pod 'Masonry'
+pod 'SDCycleScrollView'
+pod 'MBProgressHUD'
+end

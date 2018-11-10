@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="KGk-i7-Jjw" customClass="StoriesTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="89.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哈哈哈哈哈哈哈" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PSy-mX-WMg">
+                        <rect key="frame" x="34" y="11" width="257" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sDa-1v-f1G">
+                        <rect key="frame" x="299" y="16" width="90" height="58"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="jJZ-WN-vyr"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="multi_pictures" translatesAutoresizingMaskIntoConstraints="NO" id="EJd-OS-UFy">
+                        <rect key="frame" x="357" y="60" width="32" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="5dk-Z2-7NJ"/>
+                            <constraint firstAttribute="height" constant="14" id="J4v-Qe-uko"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="sDa-1v-f1G" secondAttribute="trailing" constant="5" id="Hmp-Sc-qXP"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="sDa-1v-f1G" secondAttribute="bottom" constant="5" id="MgS-do-Ge0"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="sDa-1v-f1G" secondAttribute="bottom" constant="3" id="Qg7-8D-sjx"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="sDa-1v-f1G" secondAttribute="bottom" constant="3" id="UNs-Q5-mo7"/>
+                    <constraint firstItem="EJd-OS-UFy" firstAttribute="trailing" secondItem="sDa-1v-f1G" secondAttribute="trailing" id="dwX-fB-clO"/>
+                    <constraint firstItem="sDa-1v-f1G" firstAttribute="leading" secondItem="PSy-mX-WMg" secondAttribute="trailing" constant="8" id="fdB-iR-DGp"/>
+                    <constraint firstItem="sDa-1v-f1G" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="g1O-93-pgp"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="sDa-1v-f1G" secondAttribute="bottom" constant="5" id="ltP-lP-XEg"/>
+                    <constraint firstItem="PSy-mX-WMg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="14" id="n3g-Ra-4kt"/>
+                    <constraint firstItem="sDa-1v-f1G" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="pA2-RN-hcm"/>
+                    <constraint firstAttribute="topMargin" secondItem="PSy-mX-WMg" secondAttribute="top" id="r84-Le-3Gt"/>
+                    <constraint firstItem="EJd-OS-UFy" firstAttribute="bottom" secondItem="sDa-1v-f1G" secondAttribute="bottom" id="xn9-ZT-S8z"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="MgS-do-Ge0"/>
+                        <exclude reference="Qg7-8D-sjx"/>
+                        <exclude reference="UNs-Q5-mo7"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentLabel" destination="PSy-mX-WMg" id="iWW-X0-TI6"/>
+                <outlet property="mainImageView" destination="sDa-1v-f1G" id="ypQ-mk-Jho"/>
+                <outlet property="multiImageView" destination="EJd-OS-UFy" id="d0I-rI-Ugy"/>
+            </connections>
+            <point key="canvasLocation" x="13" y="-35"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="multi_pictures" width="32" height="14"/>
+    </resources>
+</document>
